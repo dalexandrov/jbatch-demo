@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="local.batch.chunk.partition.BatchChunkPartitionTest" time="9.633" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2016.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="user.country.format" value="BG"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/mitia/Documents/Java/jbatch-samples"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3c/rjcsqqdd11j04_3l1kkvvglr0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mitia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/mitia"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/Applications/IntelliJ IDEA.app/Contents/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="mitia"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.1.3 test -P glassfish-embedded-arquillian"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="java.ext.dirs" value="/Users/mitia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="local.batch.chunk.partition.BatchChunkPartitionTest" name="testBatchChunkPartition" time="3.944">
+    <failure message="expected:&lt;20&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;20&gt; but was:&lt;0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at local.batch.chunk.partition.BatchChunkPartitionTest.testBatchChunkPartition(BatchChunkPartitionTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.jboss.arquillian.junit.Arquillian$8$1.invoke(Arquillian.java:374)
+	at org.jboss.arquillian.container.test.impl.execution.LocalTestExecuter.execute(LocalTestExecuter.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67)
+	at org.jboss.arquillian.container.test.impl.execution.ContainerTestExecuter.execute(ContainerTestExecuter.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.test(EventTestRunnerAdaptor.java:136)
+	at org.jboss.arquillian.junit.Arquillian$8.evaluate(Arquillian.java:367)
+	at org.jboss.arquillian.junit.Arquillian$4.evaluate(Arquillian.java:245)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:426)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$5.evaluate(Arquillian.java:259)
+	at org.jboss.arquillian.junit.Arquillian$7$1.invoke(Arquillian.java:319)
+	at org.jboss.arquillian.container.test.impl.execution.BeforeLifecycleEventExecuter.on(BeforeLifecycleEventExecuter.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createTestContext(TestContextHandler.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:145)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:116)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.fireCustomLifecycle(EventTestRunnerAdaptor.java:159)
+	at org.jboss.arquillian.junit.Arquillian$7.evaluate(Arquillian.java:312)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.jboss.arquillian.junit.Arquillian$2.evaluate(Arquillian.java:204)
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:426)
+	at org.jboss.arquillian.junit.Arquillian.access$200(Arquillian.java:54)
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:218)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:166)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.jboss.arquillian.junit.container.JUnitTestRunner.execute(JUnitTestRunner.java:66)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.executeTest(ServletTestRunner.java:170)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.execute(ServletTestRunner.java:135)
+	at org.jboss.arquillian.protocol.servlet.runner.ServletTestRunner.doGet(ServletTestRunner.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.StandardWrapper.service(StandardWrapper.java:1682)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:318)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:160)
+	at org.apache.catalina.core.StandardPipeline.doInvoke(StandardPipeline.java:734)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:673)
+	at com.sun.enterprise.web.WebPipeline.invoke(WebPipeline.java:99)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:174)
+	at org.apache.catalina.connector.CoyoteAdapter.doService(CoyoteAdapter.java:357)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:260)
+	at com.sun.enterprise.v3.services.impl.ContainerMapper.service(ContainerMapper.java:246)
+	at org.glassfish.grizzly.http.server.HttpHandler.runService(HttpHandler.java:191)
+	at org.glassfish.grizzly.http.server.HttpHandler.doHandle(HttpHandler.java:168)
+	at org.glassfish.grizzly.http.server.HttpServerFilter.handleRead(HttpServerFilter.java:189)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:288)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:206)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:136)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:114)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:838)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:113)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.run0(WorkerThreadIOStrategy.java:115)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy.access$100(WorkerThreadIOStrategy.java:55)
+	at org.glassfish.grizzly.strategies.WorkerThreadIOStrategy$WorkerThreadRunnable.run(WorkerThreadIOStrategy.java:135)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.doWork(AbstractThreadPool.java:564)
+	at org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker.run(AbstractThreadPool.java:544)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+    <system-out>Found populator: org.glassfish.kernel.embedded.EmbeddedDomainXml
+bbf853ea-6e14-4110-8464-ca11fa60b059.war:
+/WEB-INF/
+/WEB-INF/classes/
+/WEB-INF/classes/local/
+/WEB-INF/classes/local/batch/
+/WEB-INF/classes/local/batch/util/
+/WEB-INF/classes/local/batch/util/BatchTestHelper.class
+/WEB-INF/classes/local/batch/chunk/
+/WEB-INF/classes/local/batch/chunk/partition/
+/WEB-INF/classes/local/batch/chunk/partition/MyInputItem.class
+/WEB-INF/classes/local/batch/chunk/partition/MyItemProcessor.class
+/WEB-INF/classes/local/batch/chunk/partition/MyItemReader.class
+/WEB-INF/classes/local/batch/chunk/partition/MyItemWriter.class
+/WEB-INF/classes/local/batch/chunk/partition/MyOutputItem.class
+/WEB-INF/classes/local/batch/chunk/partition/BatchChunkPartitionTest.class
+/WEB-INF/classes/META-INF/
+/WEB-INF/classes/META-INF/batch-jobs/
+/WEB-INF/classes/META-INF/batch-jobs/myJob.xml
+/WEB-INF/beans.xml
+readItem (1): 11
+readItem (2): 1
+processItem (1): local.batch.chunk.partition.MyInputItem: 1
+processItem (2): local.batch.chunk.partition.MyInputItem: 11
+readItem (2): 2
+readItem (1): 12
+processItem (1): local.batch.chunk.partition.MyInputItem: 2
+processItem (2): local.batch.chunk.partition.MyInputItem: 12
+readItem (2): 3
+readItem (1): 13
+processItem (1): local.batch.chunk.partition.MyInputItem: 3
+processItem (2): local.batch.chunk.partition.MyInputItem: 13
+[MyOutputItem: 2, MyOutputItem: 6]
+[MyOutputItem: 22, MyOutputItem: 26]
+readItem (2): 4
+readItem (1): 14
+processItem (1): local.batch.chunk.partition.MyInputItem: 4
+processItem (2): local.batch.chunk.partition.MyInputItem: 14
+readItem (2): 5
+readItem (1): 15
+processItem (1): local.batch.chunk.partition.MyInputItem: 5
+processItem (2): local.batch.chunk.partition.MyInputItem: 15
+readItem (2): 6
+readItem (1): 16
+processItem (1): local.batch.chunk.partition.MyInputItem: 6
+processItem (2): local.batch.chunk.partition.MyInputItem: 16
+[MyOutputItem: 10]
+[MyOutputItem: 30]
+readItem (1): 17
+readItem (2): 7
+processItem (1): local.batch.chunk.partition.MyInputItem: 7
+processItem (2): local.batch.chunk.partition.MyInputItem: 17
+readItem (2): 8
+readItem (1): 18
+processItem (1): local.batch.chunk.partition.MyInputItem: 8
+processItem (2): local.batch.chunk.partition.MyInputItem: 18
+readItem (2): 9
+readItem (1): 19
+processItem (2): local.batch.chunk.partition.MyInputItem: 19
+processItem (1): local.batch.chunk.partition.MyInputItem: 9
+[MyOutputItem: 34, MyOutputItem: 38]
+[MyOutputItem: 14, MyOutputItem: 18]
+readItem (2): 10
+readItem (1): 20
+processItem (1): local.batch.chunk.partition.MyInputItem: 10
+processItem (2): local.batch.chunk.partition.MyInputItem: 20
+</system-out>
+    <system-err>??? 31, 2016 4:02:36 PM org.glassfish.security.services.impl.authorization.AuthorizationServiceImpl initialize
+INFO: Authorization Service has successfully initialized.
+??? 31, 2016 4:02:36 PM org.hibernate.validator.internal.util.Version &lt;clinit&gt;
+INFO: HV000001: Hibernate Validator 5.0.0.Final
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.services.impl.GrizzlyProxy start
+INFO: Grizzly Framework 2.3.1 started in: 27ms - bound to [/0.0.0.0:8?181]
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.services.impl.GrizzlyService createNetworkProxy
+INFO: Network listener https-listener on port 0 disabled per domain.xml
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.admin.adapter.AdminEndpointDecider setGuiContextRoot
+INFO: Admin Console Adapter: context root: /admin
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.admin.adapter.AdminEndpointDecider setGuiContextRoot
+INFO: Admin Console Adapter: context root: /admin
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.admin.adapter.AdminEndpointDecider setGuiContextRoot
+INFO: Admin Console Adapter: context root: /admin
+??? 31, 2016 4:02:37 PM org.glassfish.jersey.server.ApplicationHandler initialize
+INFO: Initiating Jersey application, version Jersey: 2.0 2013-05-03 14:50:15...
+??? 31, 2016 4:02:37 PM com.sun.enterprise.security.ssl.impl.SecuritySupportImpl checkCertificateDates
+SEVERE: SEC5054: Certificate has expired: [
+[
+  Version: V3
+  Subject: CN=GTE CyberTrust Root 5, OU=&quot;GTE CyberTrust Solutions, Inc.&quot;, O=GTE Corporation, C=US
+  Signature Algorithm: SHA1withRSA, OID = 1.2.840.113549.1.1.5
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 23741889829347261660812437366387754385443431973861114865490414153884050331745811968523116847625570146592736935209718565296053386842135985534863157983128812774162998053673746470782252407673402238146869994438729551246768368782318393878374421033907597162218758024581735139682087126982809511479059100617027892880227587855877479432885604404402435662802390484099065871430585284534529627347717530352189612077130606642676951640071336717026459037542552927905851171460589361570392199748753414855675665635003335769915908187224347232807336022456537328962095005323382940080676931822787496212635993279098588863972868266229522169377
+  public exponent: 65537
+  Validity: [From: Fri Aug 14 17:50:00 EEST 1998,
+               To: Thu Aug 15 02:59:00 EEST 2013]
+  Issuer: CN=GTE CyberTrust Root 5, OU=&quot;GTE CyberTrust Solutions, Inc.&quot;, O=GTE Corporation, C=US
+  SerialNumber: [    01b6]
+
+Certificate Extensions: 4
+[1]: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:5
+]
+
+[2]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.2.840.113763.1.2.1.3]
+[]  ]
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[4]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 76 0A 49 21 38 4C 9F DE   F8 C4 49 C7 71 71 91 9D  v.I!8L....I.qq..
+]
+]
+
+]
+  Algorithm: [SHA1withRSA]
+  Signature:
+0000: 41 3A D4 18 5B DA B8 DE   21 1C E1 8E 09 E5 F1 68  A:..[...!......h
+0010: 34 FF DE 96 F4 07 F5 A7   3C F3 AC 4A B1 9B FA 92  4.......&lt;..J....
+0020: FA 9B ED E6 32 21 AA 4A   76 C5 DC 4F 38 E5 DF D5  ....2!.Jv..O8...
+0030: 86 E4 D5 C8 76 7D 98 D7   B1 CD 8F 4D B5 91 23 6C  ....v......M..#l
+0040: 8B 8A EB EA 7C EF 14 94   C4 C6 F0 1F 4A 2D 32 71  ............J-2q
+0050: 63 2B 63 91 26 02 09 B6   80 1D ED E2 CC B8 7F DB  c+c.&amp;...........
+0060: 87 63 C8 E1 D0 6C 26 B1   35 1D 40 66 10 1B CD 95  .c...l&amp;.5.@f....
+0070: 54 18 33 61 EC 13 4F DA   13 F7 99 AF 3E D0 CF 8E  T.3a..O.....&gt;...
+0080: A6 72 A2 B3 C3 05 9A C9   27 7D 92 CC 7E 52 8D B3  .r......&apos;....R..
+0090: AB 70 6D 9E 89 9F 4D EB   1A 75 C2 98 AA D5 02 16  .pm...M..u......
+00A0: D7 0C 8A BF 25 E4 EB 2D   BC 98 E9 58 38 19 7C B9  ....%..-...X8...
+00B0: 37 FE DB E2 99 08 73 06   C7 97 83 6A 7D 10 01 2F  7.....s....j.../
+00C0: 32 B9 17 05 4A 65 E6 2F   CE BE 5E 53 A6 82 E9 9A  2...Je./..^S....
+00D0: 53 0A 84 74 2D 83 CA C8   94 16 76 5F 94 61 28 F0  S..t-.....v_.a(.
+00E0: 85 A7 39 BB D7 8B D9 A8   B2 13 1D 54 09 34 24 7D  ..9........T.4$.
+00F0: 20 81 7D 66 7E A2 90 74   5C 10 C6 BD EC AB 1B C2   ..f...t\.......
+
+]
+??? 31, 2016 4:02:37 PM com.sun.enterprise.v3.server.AppServerStartup postStartupJob
+INFO: Undefined Product Name - define product and version info in config/branding  0.0.0  (0) startup time : Embedded (839ms), startup services(818ms), total(1?657ms)
+??? 31, 2016 4:02:37 PM org.glassfish.admin.mbeanserver.JMXStartupService$JMXConnectorsStarterThread run
+INFO: JMXStartupService has disabled JMXConnector system
+??? 31, 2016 4:02:38 PM com.sun.enterprise.connectors.jms.util.JmsRaUtil getInstalledMqVersion
+WARNING: RAR7000 : Check for a new version of MQ installation failed : /var/folders/3c/rjcsqqdd11j04_3l1kkvvglr0000gn/T/gfembed2630054557751954262tmp/lib/install/applications/jmsra/../imqjmsra.rar (No such file or directory):/var/folders/3c/rjcsqqdd11j04_3l1kkvvglr0000gn/T/gfembed2630054557751954262tmp/lib/install/applications/jmsra/imqjmsra.rar
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.SecurityLifecycle &lt;init&gt;
+INFO: SEC1002: Security Manager is OFF.
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.SecurityLifecycle onInitialization
+INFO: SEC1010: Entering Security Startup Service
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.PolicyLoader loadPolicy
+INFO: SEC1143: Loading policy provider com.sun.enterprise.security.jacc.provider.SimplePolicyProvider.
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.auth.realm.Realm doInstantiate
+INFO: SEC1115: Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.auth.realm.Realm doInstantiate
+INFO: SEC1115: Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.auth.realm.Realm doInstantiate
+INFO: SEC1115: Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.
+??? 31, 2016 4:02:39 PM com.sun.enterprise.security.SecurityLifecycle onInitialization
+INFO: SEC1011: Security Service(s) Started Successfully
+??? 31, 2016 4:02:39 PM com.sun.enterprise.web.WebContainer createHttpListener
+INFO: Created HTTP listener http-listener on host/port 0.0.0.0:8181
+??? 31, 2016 4:02:39 PM com.sun.enterprise.web.VirtualServer addProbes
+SEVERE: Error adding HttpProbes. NetworkListener https-listeners GrizzlyProxy is NULL
+??? 31, 2016 4:02:39 PM com.sun.enterprise.web.WebContainer createHosts
+INFO: Created virtual server server
+??? 31, 2016 4:02:39 PM org.apache.catalina.realm.JAASRealm setContainer
+INFO: Setting JAAS app name glassfish-web
+??? 31, 2016 4:02:39 PM com.sun.enterprise.web.WebContainer loadSystemDefaultWebModules
+INFO: Virtual server server loaded default web module 
+??? 31, 2016 4:02:40 PM org.jboss.weld.bootstrap.WeldBootstrap &lt;clinit&gt;
+INFO: WELD-000900 SNAPSHOT
+??? 31, 2016 4:02:41 PM com.sun.enterprise.web.WebApplication start
+INFO: Loading application [bbf853ea-6e14-4110-8464-ca11fa60b059] at [/bbf853ea-6e14-4110-8464-ca11fa60b059]
+??? 31, 2016 4:02:41 PM org.glassfish.deployment.admin.DeployCommand execute
+INFO: bbf853ea-6e14-4110-8464-ca11fa60b059 was successfully deployed in 2?422 milliseconds.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: CHECKPOINTDATA table does not exists. Trying to create it.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: JOBINSTANCEDATA table does not exists. Trying to create it.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: EXECUTIONINSTANCEDATA table does not exists. Trying to create it.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: STEPEXECUTIONINSTANCEDATA table does not exists. Trying to create it.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: JOBSTATUS table does not exists. Trying to create it.
+??? 31, 2016 4:02:43 PM com.ibm.jbatch.container.services.impl.JDBCPersistenceManagerImpl createIfNotExists
+INFO: STEPSTATUS table does not exists. Trying to create it.
+??? 31, 2016 4:02:44 PM com.sun.jts.CosTransactions.DefaultTransactionService setServerName
+INFO: JTS5014: Recoverable JTS instance, serverId = [100]
+</system-err>
+  </testcase>
+</testsuite>

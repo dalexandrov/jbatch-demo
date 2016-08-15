@@ -1,0 +1,13 @@
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/InvoiceItemReader.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/PersonItemProcessor.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/listeners/PersonChunkListener.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/listeners/PersonJobListener.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/InvoiceEmailer.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/ItemWriter.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/InvoiceItemProcessor.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/Invoice.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/PersonStatisticHarvester.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/processing/PersonDBItemReader.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/Person.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/partitioning/ReadPartitioner.java
+/Users/mitia/Documents/Java/jbatch-samples/invoicing/src/main/java/local/batch/invoicing/PersonItemReader.java

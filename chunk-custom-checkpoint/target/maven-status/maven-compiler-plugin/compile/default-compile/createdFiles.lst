@@ -1,0 +1,6 @@
+local/batch/chunk/checkpoint/custom/MyInputItem.class
+local/batch/chunk/checkpoint/custom/MyItemWriter.class
+local/batch/chunk/checkpoint/custom/MyItemProcessor.class
+local/batch/chunk/checkpoint/custom/MyOutputItem.class
+local/batch/chunk/checkpoint/custom/MyItemReader.class
+local/batch/chunk/checkpoint/custom/MyCheckpointAlgorithm.class

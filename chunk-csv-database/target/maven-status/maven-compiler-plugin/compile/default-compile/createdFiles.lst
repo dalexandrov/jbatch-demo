@@ -1,0 +1,4 @@
+local/batch/chunk/csv/database/MyItemReader.class
+local/batch/chunk/csv/database/Person.class
+local/batch/chunk/csv/database/MyItemProcessor.class
+local/batch/chunk/csv/database/MyItemWriter.class

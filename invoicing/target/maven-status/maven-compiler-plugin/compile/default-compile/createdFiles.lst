@@ -1,0 +1,14 @@
+local/batch/invoicing/processing/Invoice.class
+local/batch/invoicing/processing/InvoiceItemProcessor.class
+local/batch/invoicing/processing/PersonDBItemReader.class
+local/batch/invoicing/listeners/PersonJobListener.class
+local/batch/invoicing/partitioning/ReadPartitioner$1.class
+local/batch/invoicing/Person.class
+local/batch/invoicing/processing/PersonStatisticHarvester.class
+local/batch/invoicing/PersonItemProcessor.class
+local/batch/invoicing/processing/InvoiceItemReader.class
+local/batch/invoicing/listeners/PersonChunkListener.class
+local/batch/invoicing/partitioning/ReadPartitioner.class
+local/batch/invoicing/PersonItemReader.class
+local/batch/invoicing/processing/InvoiceEmailer.class
+local/batch/invoicing/ItemWriter.class

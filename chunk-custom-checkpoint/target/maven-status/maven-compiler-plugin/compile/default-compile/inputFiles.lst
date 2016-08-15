@@ -1,0 +1,6 @@
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyItemReader.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyCheckpointAlgorithm.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyInputItem.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyItemProcessor.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyItemWriter.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-custom-checkpoint/src/main/java/local/batch/chunk/checkpoint/custom/MyOutputItem.java

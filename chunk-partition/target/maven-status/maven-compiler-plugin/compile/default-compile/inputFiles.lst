@@ -1,0 +1,5 @@
+/Users/mitia/Documents/Java/jbatch-samples/chunk-partition/src/main/java/local/batch/chunk/partition/MyItemProcessor.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-partition/src/main/java/local/batch/chunk/partition/MyItemWriter.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-partition/src/main/java/local/batch/chunk/partition/MyOutputItem.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-partition/src/main/java/local/batch/chunk/partition/MyInputItem.java
+/Users/mitia/Documents/Java/jbatch-samples/chunk-partition/src/main/java/local/batch/chunk/partition/MyItemReader.java

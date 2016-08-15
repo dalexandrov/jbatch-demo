@@ -1,0 +1,12 @@
+local/batch/chunk/listeners/MyItemReader.class
+local/batch/chunk/listeners/MyChunkListener.class
+local/batch/chunk/listeners/MyItemReadListener.class
+local/batch/chunk/listeners/MyItemWriteListener.class
+local/batch/chunk/listeners/MyItemProcessor.class
+local/batch/chunk/listeners/MyOutputItem.class
+local/batch/chunk/listeners/MyInputItem.class
+local/batch/chunk/listeners/MyItemProcessorListener.class
+local/batch/chunk/listeners/MyItemWriter.class
+local/batch/chunk/listeners/BatchListenerRecorder.class
+local/batch/chunk/listeners/MyStepListener.class
+local/batch/chunk/listeners/MyJobListener.class

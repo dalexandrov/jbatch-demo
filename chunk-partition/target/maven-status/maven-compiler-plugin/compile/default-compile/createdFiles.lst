@@ -1,0 +1,5 @@
+local/batch/chunk/partition/MyInputItem.class
+local/batch/chunk/partition/MyItemReader.class
+local/batch/chunk/partition/MyItemWriter.class
+local/batch/chunk/partition/MyOutputItem.class
+local/batch/chunk/partition/MyItemProcessor.class

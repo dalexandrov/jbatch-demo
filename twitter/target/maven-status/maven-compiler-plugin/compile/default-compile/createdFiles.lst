@@ -1,0 +1,10 @@
+local/batch/chunk/twitter/analyse/AbstractAnalyseWriter.class
+local/batch/chunk/twitter/analyse/HateAnalyseWriter.class
+local/batch/chunk/twitter/analyse/LikeAnalyseWriter.class
+local/batch/chunk/twitter/analyse/LikeProcessor.class
+local/batch/chunk/twitter/extract/TwitterReader.class
+local/batch/chunk/twitter/analyse/AnalyseReader.class
+local/batch/chunk/twitter/extract/TwitterWriter.class
+local/batch/chunk/twitter/analyse/HateProcessor.class
+local/batch/chunk/twitter/extract/TwitRecord.class
+local/batch/chunk/twitter/extract/TwitterProcessor.class

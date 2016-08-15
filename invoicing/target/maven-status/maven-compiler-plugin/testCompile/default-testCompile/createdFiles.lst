@@ -1,0 +1,3 @@
+local/batch/chunk/csv/database/scheduler/InvoiceScheduler.class
+local/batch/chunk/csv/database/InvoicingTest.class
+local/batch/chunk/csv/database/scheduler/InvoicingScheduledTest.class

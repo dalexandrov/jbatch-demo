@@ -1,0 +1,2 @@
+CREATE TABLE PERSON_DATABASE ("ID" INTEGER not null primary key, "FIRST_NAME" VARCHAR(50) not null, "LAST_NAME" VARCHAR(50) not null,"EMAIL" VARCHAR(50) not null,"PHONE" VARCHAR(50) not null,"COUNTRY" VARCHAR(50) not null,"ADDRESS" VARCHAR(50) not null,"CARD" VARCHAR(50) not null)
+CREATE TABLE INVOICE_DATABASE ("ID" INTEGER not null primary key, "PERSON_ID" INTEGER not null,"EMAIL" VARCHAR(50) not null, "DATA" BLOB(1K) not null)
