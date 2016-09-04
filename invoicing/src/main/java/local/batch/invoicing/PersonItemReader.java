@@ -52,9 +52,6 @@ public class PersonItemReader extends AbstractItemReader {
                         Thread.currentThread().getContextClassLoader().getResourceAsStream("/META-INF/MOCK_DATA.csv")));
 
         //start from checkpoint
-        if (checkpoint != null) {
-            System.out.println("Skipping already read elements: "+checkpoint);
-        }
         int checkpointStart = (Integer) checkpoint == null ? 0 : ((Integer) checkpoint).intValue();
         for (counter = checkpointStart; counter < start; counter++) reader.readLine();
     }
